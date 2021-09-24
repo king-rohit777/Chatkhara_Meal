@@ -39,7 +39,7 @@ async function showProducts() {
             <th>${index + 1}</th>
             <th scope="col"><img src=${image} alt="product-img" width="50" id="table-img"></th>
             <td data-label="Item Name" colspan="2">${item.title}</td>
-            <td data-label="Price" colspan="2">${item.price} /-PKR</td>
+            <td data-label="Price" colspan="2">${item.price} /-Rs</td>
            
             <td class= "remove-btn" ><i class="fas fa-trash-alt"></i></td>
             </tr>
