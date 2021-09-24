@@ -80,13 +80,13 @@ async function showProducts() {
             <th>${index + 1}</th>
             <th scope="col"><img src=${image} alt="product-img" width="50" id="table-img"></th>
             <td data-label="Item Name" colspan="2">${item.title}</td>
-            <td data-label="Price" colspan="2">${item.price} /-PKR</td>
+            <td data-label="Price" colspan="2">${item.price} /-Rs</td>
             <td data-label="Quantity" colspan="2">
             <i class="fas fa-chevron-left"></i> 
             <b class='quantity '>${item.inCart}</b> 
             <i class="fas fa-chevron-right"></i>
             </td>
-            <td data-label="Sub Total" colspan="2">${item.price * item.inCart} /-PKR</td>
+            <td data-label="Sub Total" colspan="2">${item.price * item.inCart} /-Rs</td>
             <td class= "remove-btn" ><i class="fas fa-trash-alt"></i></td>
             </tr>
             `
@@ -113,8 +113,8 @@ function setCartValue() {
     else{
         checkoutValidation.style.display = " none "
     }
-    subTotal.innerText = totalCost + " /-PKR"
-    grandTotalAmount.innerText = totalCost + 200 + " /-PKR"
+    subTotal.innerText = totalCost + " /-Rs"
+    grandTotalAmount.innerText = totalCost + 200 + " /-Rs"
 }
 
 function removeItem() {
