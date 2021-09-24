@@ -26,8 +26,8 @@ const setCartValue = ()=>{
     let totalCost = JSON.parse(localStorage.getItem('totalCost'))
     const subTotal = document.querySelector('.Total');
     const grandTotalAmount = document.querySelector('.grandTotal')
-    subTotal.innerText = totalCost + " /-PKR"
-    grandTotalAmount.innerText = totalCost + 200 + " /-PKR"
+    subTotal.innerText = totalCost + " /-Rs"
+    grandTotalAmount.innerText = totalCost + 200 + " /-Rs"
 }
 
 
