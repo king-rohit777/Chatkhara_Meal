@@ -17,7 +17,7 @@
         },
         {
             "id":"3",
-            "title": "Beef Cheese Burger",
+            "title": "Cheese Burger",
             "price": 300,
             "view": "../categories/fast-food-folder/beef-cheese-burger.html",
             "image":"../images/fastfood-images/beef-cheese-burger.jpg"
